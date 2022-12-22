@@ -1,11 +1,12 @@
 package Bai11;
 
+import Common.Basetest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TestSoftAssertion extends Basetest{
+public class TestSoftAssertion extends Basetest {
     @Test
     public void testSoftAssert(){
         driver.get("https://rise.fairsketch.com/signin");

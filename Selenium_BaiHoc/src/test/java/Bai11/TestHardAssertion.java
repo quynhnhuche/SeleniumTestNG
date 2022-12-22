@@ -1,5 +1,6 @@
 package Bai11;
 
+import Common.Basetest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -7,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class TestHardAssertion extends Basetest{
+public class TestHardAssertion extends Basetest {
 
     //Khởi tạo browser với Chrome
 

@@ -1,6 +1,6 @@
 package Bai12;
 
-import Bai11.Basetest;
+import Common.Basetest;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
